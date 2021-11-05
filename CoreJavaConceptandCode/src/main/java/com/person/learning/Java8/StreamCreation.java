@@ -8,7 +8,7 @@ public static void main(String[] args) {
 
 	String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 
-		Stream.of(cars);
+		Stream.of(cars.toString());
 		System.out.println(Stream.of(cars).toArray());
 }
 }

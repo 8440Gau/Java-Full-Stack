@@ -1,7 +1,5 @@
 package com.person.learning.Excersise.Array;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class DynamicArrayConcept {

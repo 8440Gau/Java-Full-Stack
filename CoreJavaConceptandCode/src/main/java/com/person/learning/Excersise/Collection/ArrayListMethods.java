@@ -15,7 +15,7 @@ class methodsofArrayList {
 		arrayList.add("Gaurav");// boolean add(E e)
 		arrayList.add("Akshat");
 		arrayList.add("Vipul");
-		arrayList.add(1, "Singh");
+		arrayList.add(0, "Singh");
 
 		// Using for loop to iterate all the elements of ArrayList
 		System.out.println("I am using for loop to retrive the element");
