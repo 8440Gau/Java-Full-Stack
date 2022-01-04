@@ -19,7 +19,7 @@ class A implements fact{
 	
 }
 
-class B implements fact{
+class B implements fact{ 
 
 	@Override
 	public void draw() {
