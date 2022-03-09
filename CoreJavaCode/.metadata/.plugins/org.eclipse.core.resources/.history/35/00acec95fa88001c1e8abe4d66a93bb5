@@ -1,0 +1,19 @@
+package StreamConcepts;
+
+public class MultipleNumber implements a1 {
+public static void main(String[] args) {
+	
+}
+
+@Override
+public void multi(int a, int b) {
+	(int a, int b)-> a*b ;
+	
+}
+
+
+}
+@FunctionalInterface
+interface a1{
+	public void multi(int a,int b);
+}

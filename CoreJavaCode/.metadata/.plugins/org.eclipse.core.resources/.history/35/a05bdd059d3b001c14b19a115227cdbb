@@ -1,0 +1,14 @@
+package revisionjava8;
+
+
+ interface Add{
+	public int add1(int a, int b);
+	
+}
+public class AddUsingLambha {
+public static void main(String[] args) {
+  
+  Add a =(int z, int x)-> z+x;
+  
+}
+}

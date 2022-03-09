@@ -1,0 +1,12 @@
+package array;
+
+public class ReverseArray {
+public static void main(String[] args) {
+	int[] originalarr = {10,21,10,17,19};
+	int[] reversearr = new int[originalarr.length];
+	System.out.println("arr size :" +reversearr);
+	for(int i =0; i<originalarr.length;i++) {
+		
+	}
+}
+}

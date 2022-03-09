@@ -1,0 +1,17 @@
+package array;
+
+public class FindDuplicateElement {
+public static void main(String[] args) {
+	int arr[] = {1,21,3,9,10,4,9,01,19,18,12};
+	
+	for(int i =0;i<arr.length;i++) {
+		for(int j=i+1;j<arr.length;j++) {
+			if(arr[i]==arr[j]) {
+				System.out.println(arr[i]);
+				int sum=arr[i]+arr[j];
+				System.out.println(sum);
+			}
+		}
+	}
+}
+}

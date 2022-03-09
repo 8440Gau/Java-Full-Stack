@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;streamMap&apos; to &apos;MapandStream&apos;&#x0D;&#x0A;- Original project: &apos;CoreJavaConceptandCode&apos;&#x0D;&#x0A;- Original element: &apos;CoreJavaConceptandCode/src/main/java/streamMap&apos;&#x0D;&#x0A;- Renamed element: &apos;CoreJavaConceptandCode/src/main/java/MapandStream&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;streamMap&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;streamMap" name="MapandStream" qualified="false" references="true" stamp="1638979296851" textual="false" version="1.0"/>
+</session>

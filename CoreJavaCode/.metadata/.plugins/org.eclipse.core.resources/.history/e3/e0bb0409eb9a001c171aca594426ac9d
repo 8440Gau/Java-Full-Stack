@@ -1,0 +1,81 @@
+package DesignPattern;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DAODesignPatter {
+
+}
+
+class Students{
+	private String name;
+	private String rollno;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getRollno() {
+		return rollno;
+	}
+	public void setRollno(String rollno) {
+		this.rollno = rollno;
+	}
+	public Students(String name, String i) {
+		super();
+		this.name = name;
+		this.rollno = i;
+	}
+	
+	
+}
+
+interface stud{
+	public Students getStudent(Students rollno);
+	public List<Students> getAllstudents();
+	public void updateStudents(Students students);
+	public void deletestudents(Students rollno);
+}
+
+class studimpl implements stud{
+	
+	List<Students> students;
+	 
+	public studimpl(){
+	      students = new ArrayList<Students>();
+	      Students student1 = new Students("Robert","1");
+	      Students student2 = new Students("John","2");
+	      students.add(student1);
+	      students.add(student2);		
+	   }
+
+	@Override
+	public Students getStudent(Students rollno) {
+		// TODO Auto-generated method stub
+		//return students.get(rollno);
+	return null;
+	}
+
+	@Override
+	public List<Students> getAllstudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void updateStudents(Students student) {
+		// TODO Auto-generated method stub
+		//((Object) students).get(students.getRollno(),students.getName());
+	//	students.get(student.getRollno()).setName(student.getName());
+	}
+
+	@Override
+	public void deletestudents(Students rollno) {
+		// TODO Auto-generated method stub
+		students.remove(rollno.getRollno());
+	}
+
+
+}

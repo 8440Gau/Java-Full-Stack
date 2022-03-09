@@ -1,0 +1,5 @@
+package streaminJava8;
+
+public class EvenNumberwithStream {
+
+}

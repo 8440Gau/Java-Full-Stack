@@ -1,0 +1,11 @@
+package StreamConcepts;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SortingUsingCompartor {
+public static void main(String[] args) {
+	List<Employee> list = new ArrayList<Employee>();
+	list.add(new Employee("10","Gaurav","10000"));
+}
+}

@@ -1,0 +1,18 @@
+package StreamConcepts;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SortingUsingCompartor {
+public static void main(String[] args) {
+	List<Employee> list = new ArrayList<Employee>();
+	list.add(new Employee("101","Gaurav","10000"));
+	list.add(new Employee("104","Saurabh","10231"));
+	list.add(new Employee("105","AMit","12000"));
+	list.add(new Employee("109","Bikky","13400"));
+	list.add(new Employee("108","Sujit","14200"));
+	list.add(new Employee("106","Makhan","19834"));
+	list.add(new Employee("102","Butter","12871"));
+	
+}
+}

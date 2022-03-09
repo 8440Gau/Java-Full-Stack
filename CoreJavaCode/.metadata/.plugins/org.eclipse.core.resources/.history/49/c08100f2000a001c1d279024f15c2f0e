@@ -1,0 +1,17 @@
+package streaminJava8;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CountingBySteam {
+public static void main(String[] args) {
+	List<String> len = new ArrayList<String>();
+	len.add("check1");
+	len.add("Hell...no");
+	len.add("Sab changa si");
+	len.add("Crack the code");
+	len.add("Sab khatam...");
+	
+	len.forEach(a->System.out.println(a));
+}
+}

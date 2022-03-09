@@ -1,0 +1,48 @@
+package com.person.learning.BasicProgrammingSkills;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+
+
+public class Palindrome {
+public static void main(String[] args) {
+	Palindrome palindrome = new Palindrome();
+	//palindrome.StringPalindrome(); 
+	palindrome.UpperWord();
+	
+}
+public void UpperWord() {
+	List<String> words = new ArrayList<>();
+    String dataStr = "This text was just made RANDOMLY to show what I MEANT.";
+    Pattern pattern = Pattern.compile("[A-Z][A-Z]+");
+    Matcher matcher = pattern.matcher(dataStr);
+    while (matcher.find()) {
+        words.add(matcher.group());
+    }
+
+    System.out.println(words);
+}
+     
+
+public void StringPalindrome() {
+	String str, rev = "";
+    Scanner sc = new Scanner(System.in);
+
+    System.out.println("Enter a string:");
+    str = sc.nextLine();
+
+    int length = str.length();
+
+    for ( int i = length - 1; i >= 0; i-- )
+       rev = rev + str.charAt(i);
+
+    if (str.equals(rev))
+       System.out.println(str+" is a palindrome");
+    else
+       System.out.println(str+" is not a palindrome");
+}
+}
